@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import __dirname from '../utils.js';
 
-// Construye la ruta absoluta al archivo productos.json
-const fileProductos = path.resolve(__dirname, 'data', 'products.json'); // Asegúrate de que el nombre sea correcto
+// Ruta absoluta al archivo productos.json
+const fileProductos = path.resolve(__dirname, 'data', 'products.json');
 
 console.log(`Ruta del archivo productos.json: ${fileProductos}`);
 
